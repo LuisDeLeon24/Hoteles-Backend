@@ -4,7 +4,7 @@
   "description": "This project is a full-stack web application for managing hotel operations. It includes features for room management, reservations, user authentication, staff administration, and reporting. The backend is built with Node.js and Express, and the frontend with React.js. The system supports different user roles (admin, staff, customers) and allows online booking, real-time availability, and dashboard analytics.",
   "main": "index.js",
   "scripts": {
-    "start": "vite preview",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
   },
@@ -35,5 +35,8 @@
     "url": "https://github.com/LisandroJimenez/Hotel-Management/issues"
   },
   "homepage": "https://github.com/LisandroJimenez/Hotel-Management#readme",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "vite": "^7.0.4"
+  }
 }
